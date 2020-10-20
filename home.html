@@ -1,14 +1,231 @@
 <!doctype html>
+<html lang="en">
 
-<html>
-  <head>
-    <title>INSERT TITLE HERE!</title>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
+    <title>Books on the Square</title>
+</head>
 
-  <body>
-    <!-- TODO: put your HTML code here! -->
-  </body>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-size: x-large">Books on the Square</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item"><a class="nav-link">Home</a></li>
+                    <li class="navbar-item"><a class="nav-link">Books</a></li>
+                    <li class="navbar-item"><a class="nav-link">Events</a></li>
+                    <li class="navbar-item"><a class="nav-link">About</a></li>
+                    <li class="navbar-item"><a class="nav-link">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex flex-column books justify-content-center align-items-center logo-motto">
+        <img src="images/logo.jpg" alt="stock image of books" class="logo">
+        <h1 class="text-light text-center caption">An independent bookstore for independent minds.</h1>
+    </div>
+
+    <div class="books">
+        <div class="container">
+            <div class="card justify-content-center align-items-center">
+                <div class="card-body">
+                    <h4 class="header">Shop For Books</h4>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Title, author, or keyword" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" style="z-index: auto;">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="small-spacer"></div>
+
+        <div id="staff" class="container-fluid">
+            <h4 class="header text-light">Recent Staff Picks</h4>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="flex-container">
+                        <img src="images/earthlings.jpg" class="slideshow-image">
+                        <div class="text">As a child, Natsuki doesn't fit in with her family. Her parents favor her sister, and her best friend is a plush toy hedgehog named Piyyut, who talks to her. He tells her that he has come from the planet Popinpobopia on a special
+                            quest to help her save the Earth. One summer, on vacation with her family and her cousin Yuu in her grandparents' ramshackle wooden house in the mountains of Nagano, Natsuki decides that she must be an alien, which would explain
+                            why she can't seem to fit in like everyone else. Later, as a grown woman, living a quiet life with her asexual husband, Natsuki is still pursued by dark shadows from her childhood, and decides to flee the "baby factory" of
+                            society for good, searching for answers about the vast and frightening mysteries of the universe--answers only Natsuki has the power to uncover.</div>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="flex-container">
+                        <img src="images/babel.jpg" class="slideshow-image">
+                        <div class="text">After two years and seven months biding her time on Anima, her home ark, it is finally time to act, to put what she has discovered in the Book of Farouk to use. Under an assumed identity she travels to Babel, a cosmopolitan and
+                            thoroughly modern ark that is the jewel of the universe. Will Ophelia's talent as a reader suffice to avoid being lured into a deadly trap by her ever more fearful adversaries? Will she ever see Thorn, her betrothed, again?</div>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="flex-container">
+                        <img src="images/migrations.jpg" class="slideshow-image">
+                        <div class="text">Franny Stone has always been a wanderer. By following the ocean’s tides and the birds that soar above, she can forget the losses that have haunted her life. But when the wild she loves begins to disappear, Franny can no longer
+                            wander without a destination. She arrives in remote Greenland with one purpose: to find the world’s last flock of Arctic terns and track their final migration. She convinces Ennis Malone, captain of the Saghani, to take her
+                            onboard, winning over his eccentric crew with promises that the birds will lead them to fish. As the Saghani fights its way south, Franny’s dark history begins to unspool. Battered by night terrors, accumulating a pile of unsent
+                            letters, and obsessed with pursuing the terns at any cost, Franny is full of secrets. When her quest threatens the safety of the entire crew, Franny must ask herself what she is really running toward—and running from.</div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="flex-container">
+                        <img src="images/ellie.jpg" class="slideshow-image">
+                        <div class="text">Ellie's life is turned upside down when she finds a curious instrument on the shore that makes the most amazing sound when she blows into it: Trööömmmpffff Creatures come from near and far to hear Ellie's magnificent new voice.
+                            But when Ellie learns that the horn actually belongs to Duke Junior who is desperately unhappy without it, she goes on an adventure to return the horn to its rightful owner. After days and nights of searching, she finds Duke
+                            Junior on an island in the middle of the water. To her surprise and delight, Duke Junior doesn't just toot Trööömmmpfff on the horn... he plays the most beautiful music Ellie is so happy that Duke Junior has his horn back and
+                            can produce such lovely sounds that she's content listening to his tunes and being herself.</div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="flex-container">
+                        <img src="images/flyaway.jpg" class="slideshow-image">
+                        <div class="text">In a small Western Queensland town, a reserved young woman receives a note from one of her vanished brothers—a note that makes her question memories of their disappearance and her father’s departure. A beguiling story that proves
+                            that gothic delights and uncanny family horror can live—and even thrive—under a burning sun, Flyaway introduces readers to Bettina Scott, whose search for the truth throws her into tales of eerie dogs, vanished schools, cursed
+                            monsters, and enchanted bottles. Flyaway enchants you with the sly, beautiful darkness of Karen Russell and a world utterly its own.</div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="flex-container">
+                        <img src="images/queen.jpg" class="slideshow-image">
+                        <div class="text">In 1485, Henry VII became the first Tudor king of England. His victory owed much to his mother, Lady Margaret Beaufort. Over decades and across countries, Margaret had schemed to install her son on the throne and end the War of
+                            the Roses. Margaret's extraordinarily close relationship with Henry, coupled with her role in political and ceremonial affairs, ensured that she was treated -- and behaved -- as a queen in all but name. Against a lavish backdrop
+                            of pageantry and ambition, court intrigue and war, historian Nicola Tallis illuminates how a dynamic, brilliant woman orchestrated the rise of the Tudors.</div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="flex-container">
+                        <img src="images/vanishing.jpg" class="slideshow-image">
+                        <div class="text">The Vignes twin sisters will always be identical. But after growing up together in a small, southern black community and running away at age sixteen, it's not just the shape of their daily lives that is different as adults, it's
+                            everything: their families, their communities, their racial identities. Many years later, one sister lives with her black daughter in the same southern town she once tried to escape. The other secretly passes for white, and
+                            her white husband knows nothing of her past. Still, even separated by so many miles and just as many lies, the fates of the twins remain intertwined. What will happen to the next generation, when their own daughters' storylines
+                            intersect?
+                        </div>
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="flex-container">
+                        <img src="images/v.jpg" class="slideshow-image">
+                        <div class="text">Lily is a mother and a daughter. And a second wife. And a writer, maybe? Or she was going to be, before she had children. Now, in her rented Brooklyn apartment she’s grappling with her sexual and intellectual desires, while also
+                            trying to manage her roles as a mother and a wife in 2016. Vivian Barr seems to be the perfect political wife, dedicated to helping her charismatic and ambitious husband find success in Watergate-era Washington D.C. But one
+                            night he demands a humiliating favor, and her refusal to obey changes the course of her life—along with the lives of others. Esther is a fiercely independent young woman in ancient Persia, where she and her uncle’s tribe live
+                            a tenuous existence outside the palace walls. When an innocent mistake results in devastating consequences for her people, she is offered up as a sacrifice to please the King, in the hopes that she will save them all.</div>
+                    </div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(1, -1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1, 1)"></span>
+                <span class="dot" onclick="currentSlide(1, 2)"></span>
+                <span class="dot" onclick="currentSlide(1, 3)"></span>
+                <span class="dot" onclick="currentSlide(1, 4)"></span>
+                <span class="dot" onclick="currentSlide(1, 5)"></span>
+                <span class="dot" onclick="currentSlide(1, 6)"></span>
+                <span class="dot" onclick="currentSlide(1, 7)"></span>
+                <span class="dot" onclick="currentSlide(1, 8)"></span>
+            </div>
+            <script src="slideshow.js"></script>
+        </div>
+
+        <div class="small-spacer books"></div>
+
+        <div id="indie" class="container-fluid">
+            <h4 class="header">Indie Bestsellers</h4>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides2 fade">
+                    <div class="flex-container">
+                        <img src="images/devils.jpg" class="slideshow-image2">
+                        <p class="text2">On their first night in Paris, the Gamaches gather as a family for a bistro dinner with Armand’s godfather, the billionaire Stephen Horowitz. Walking home together after the meal, they watch in horror as Stephen is knocked down
+                            and critically injured in what Gamache knows is no accident, but a deliberate attempt on the elderly man’s life. A gruesome discovery in Stephen’s Paris apartment makes it clear the secrets are more rancid, the danger far greater
+                            and more imminent, than they realized. Soon the whole family is caught up in a web of lies and deceit. In order to find the truth, Gamache will have to decide whether he can trust his friends, his colleagues, his instincts,
+                            his own past. His own family.</p>
+                    </div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="flex-container">
+                        <img src="images/anxious.jpg" class="slideshow-image2">
+                        <p class="text2">Looking at real estate isn’t usually a life-or-death situation, but an apartment open house becomes just that when a failed bank robber bursts in and takes a group of strangers hostage. The captives include a recently retired couple
+                            who relentlessly hunt down fixer-uppers to avoid the painful truth that they can’t fix their own marriage. There’s a wealthy bank director who has been too busy to care about anyone else and a young couple who are about to
+                            have their first child but can’t seem to agree on anything, from where they want to live to how they met in the first place.</p>
+                    </div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="flex-container">
+                        <img src="images/normal.jpg" class="slideshow-image2">
+                        <p class="text2">Connell and Marianne grew up in the same small town, but the similarities end there. At school, Connell is popular and well liked, while Marianne is a loner. But when the two strike up a conversation—awkward but electrifying—something
+                            life changing begins. Normal People is the story of mutual fascination, friendship and love. It takes us from that first conversation to the years beyond, in the company of two people who try to stay apart but find that they
+                            can’t.
+                        </p>
+                    </div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="flex-container">
+                        <img src="images/circe.jpg" class="slideshow-image2">
+                        <p class="text2">In the house of Helios, god of the sun and mightiest of the Titans, a daughter is born. But Circe is a strange child -- not powerful, like her father, nor viciously alluring like her mother. Turning to the world of mortals for
+                            companionship, she discovers that she does possess power -- the power of witchcraft, which can transform rivals into monsters and menace the gods themselves. To protect what she loves most, Circe must summon all her strength
+                            and choose, once and for all, whether she belongs with the gods she is born from, or the mortals she has come to love.</p>
+                    </div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="flex-container">
+                        <img src="images/overstory.jpg" class="slideshow-image2">
+                        <p class="text2">The Overstory, winner of the 2019 Pulitzer Prize in Fiction, is a sweeping, impassioned work of activism and resistance that is also a stunning evocation of—and paean to—the natural world. From the roots to the crown and back to
+                            the seeds, Richard Powers’s twelfth novel unfolds in concentric rings of interlocking fables that range from antebellum New York to the late twentieth-century Timber Wars of the Pacific Northwest and beyond. </p>
+                    </div>
+                </div>
+                <div class="mySlides2 fade">
+                    <div class="flex-container">
+                        <img src="images/tender.jpg" class="slideshow-image2">
+                        <p class="text2">In the summer of 1932, on the banks of Minnesota’s Gilead River, Odie O’Banion is an orphan confined to the Lincoln Indian Training School, a pitiless place where his lively nature earns him the superintendent’s wrath. Forced to
+                            flee after committing a terrible crime, he and his brother, Albert, their best friend, Mose, and a brokenhearted little girl named Emmy steal away in a canoe, heading for the mighty Mississippi and a place to call their own.</p>
+                    </div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev2" onclick="plusSlides(2, -1)">&#10094;</a>
+                <a class="next2" onclick="plusSlides(2, 1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot2" onclick="currentSlide(2, 1)"></span>
+                <span class="dot2" onclick="currentSlide(2, 2)"></span>
+                <span class="dot2" onclick="currentSlide(2, 3)"></span>
+                <span class="dot2" onclick="currentSlide(2, 4)"></span>
+                <span class="dot2" onclick="currentSlide(2, 5)"></span>
+                <span class="dot2" onclick="currentSlide(2, 6)"></span>
+            </div>
+            <script src="slideshow.js"></script>
+        </div>
+    </div>
+
+    <footer class="text-center py-3 footer align-items-center text-light">
+        <p>(401) 331-9097<br>471 Angell Street<br>Providence, RI 02906</p>
+    </footer>
+
+</body>
+
 </html>
